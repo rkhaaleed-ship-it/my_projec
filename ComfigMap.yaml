@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hello-cm
+data:
+  MESSAGE: "hello from Rawan via ConfigMap"
+  index.html: |
+    <!doctype html><html><body style="text-align:center;margin-top:10vh;font-family:sans-serif">
+    <h1>hello from Rawan (ConfigMap file)</h1>
+    </body></html>
